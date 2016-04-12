@@ -1,2 +1,11 @@
-# GaWithGeographicalIsolation
-an implement to resolve job scheduling based on GA
+第一版代码
+完成了max-min、min-min、ga与种群隔离ga算法
+选择算子未做优化，单点交叉，变异概率随代数上升，含有精英保留策略。
+
+实验结果：
+ga与new ga表现相仿，好于max-min与min-min
+
+下一步计划：
+1、完成图表绘画，折线图反应ga与new ga的收敛速度
+2、增大实验样本数量，找出表现最好的样本。
+3、若不理想，优化选择算子。
