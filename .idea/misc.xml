@@ -42,6 +42,8 @@
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/../taskmanager/taskmanager/pom.xml" />
+        <option value="$PROJECT_DIR$/../webconsole/pom.xml" />
       </list>
     </option>
   </component>

@@ -2,5 +2,7 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../taskmanager/taskmanager" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../webconsole" vcs="Git" />
   </component>
 </project>

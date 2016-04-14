@@ -23,8 +23,15 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="true" />
+        <module name="ga" />
         <module name="GaWithGeographicalIsolation" />
+        <module name="taskmanager" />
+        <module name="webconsole" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="taskmanager" target="1.7" />
+      <module name="webconsole" target="1.7" />
+    </bytecodeTargetLevel>
   </component>
 </project>

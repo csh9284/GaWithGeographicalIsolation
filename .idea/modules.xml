@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/GaWithGeographicalIsolation.iml" filepath="$PROJECT_DIR$/GaWithGeographicalIsolation.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ga.iml" filepath="$PROJECT_DIR$/ga.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../taskmanager/taskmanager/taskmanager.iml" filepath="$PROJECT_DIR$/../taskmanager/taskmanager/taskmanager.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../webconsole/webconsole.iml" filepath="$PROJECT_DIR$/../webconsole/webconsole.iml" />
     </modules>
   </component>
 </project>

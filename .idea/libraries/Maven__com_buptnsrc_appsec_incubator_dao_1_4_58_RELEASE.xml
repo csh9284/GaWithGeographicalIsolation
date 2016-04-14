@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: com.buptnsrc.appsec.incubator:dao:1.4.58-RELEASE">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/buptnsrc/appsec/incubator/dao/1.4.58-RELEASE/dao-1.4.58-RELEASE.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/com/buptnsrc/appsec/incubator/dao/1.4.58-RELEASE/dao-1.4.58-RELEASE-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/buptnsrc/appsec/incubator/dao/1.4.58-RELEASE/dao-1.4.58-RELEASE-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
