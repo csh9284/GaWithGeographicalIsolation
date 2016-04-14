@@ -31,17 +31,6 @@ public class BarChartMaker extends ApplicationFrame
     private static CategoryDataset createDataset(int... datas)
     {
         DefaultCategoryDataset localDefaultCategoryDataset = new DefaultCategoryDataset();
-//        localDefaultCategoryDataset.addValue(23.0D, "Series 1", "London");
-//        localDefaultCategoryDataset.addValue(14.0D, "Series 1", "New York");
-//        localDefaultCategoryDataset.addValue(14.0D, "Series 1", "Istanbul");
-//        localDefaultCategoryDataset.addValue(14.0D, "Series 1", "Cairo");
-//        localDefaultCategoryDataset.addValue(13.0D, "Series 2", "London");
-//        localDefaultCategoryDataset.addValue(19.0D, "Series 2", "New York");
-//        localDefaultCategoryDataset.addValue(19.0D, "Series 2", "Istanbul");
-//        localDefaultCategoryDataset.addValue(19.0D, "Series 2", "Cairo");
-//        localDefaultCategoryDataset.addValue(7.0D, "Series 3", "London");
-//        localDefaultCategoryDataset.addValue(9.0D, "Series 3", "New York");
-//        localDefaultCategoryDataset.addValue(9.0D, "Series 3", "Istanbul");
         localDefaultCategoryDataset.addValue(datas[0], "MaxMin", "");
         localDefaultCategoryDataset.addValue(datas[1], "MinMin", "");
         localDefaultCategoryDataset.addValue(datas[2], "ClassicGa", "");
@@ -68,13 +57,5 @@ public class BarChartMaker extends ApplicationFrame
         ChartPanel localChartPanel = new ChartPanel(localJFreeChart);
         localChartPanel.setMouseWheelEnabled(true);
         return localChartPanel;
-    }
-
-    public static void main(String[] paramArrayOfString)
-    {
-        BarChartMaker localBarChart3DDemo2 = new BarChartMaker("JFreeChart: BarChart3DDemo2.java");
-        localBarChart3DDemo2.pack();
-        RefineryUtilities.centerFrameOnScreen(localBarChart3DDemo2);
-        localBarChart3DDemo2.setVisible(true);
     }
 }

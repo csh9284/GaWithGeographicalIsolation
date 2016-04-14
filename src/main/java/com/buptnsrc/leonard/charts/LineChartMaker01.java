@@ -89,12 +89,4 @@ public class LineChartMaker01 extends ApplicationFrame{
         localChartPanel.setMouseWheelEnabled(true);
         return localChartPanel;
     }
-
-    public static void main(String[] paramArrayOfString)
-    {
-        LineChartMaker01 localLineChartDemo1 = new LineChartMaker01("JFreeChart: LineChartDemo1.java");
-        localLineChartDemo1.pack();
-        RefineryUtilities.centerFrameOnScreen(localLineChartDemo1);
-        localLineChartDemo1.setVisible(true);
-    }
 }
