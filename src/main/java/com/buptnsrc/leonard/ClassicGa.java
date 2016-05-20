@@ -55,12 +55,7 @@ public class ClassicGa {
 
     private void initChromosome(){
 
-        chromosomes = new int[CHROMOSOME_NUM][TASK_NUM];
-        for(int i=0;i<CHROMOSOME_NUM;i++){
-            for(int j=0;j<TASK_NUM;j++) {
-                chromosomes[i][j] = (int)(Math.random()*MACHINE_NUM);
-            }
-        }
+        chromosomes = ChromosomeInitializer.getChromosomes();
 
         //init elite
         System.arraycopy(chromosomes[0],0,oldElite,0,TASK_NUM);
