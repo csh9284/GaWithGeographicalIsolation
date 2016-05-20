@@ -1,0 +1,17 @@
+# Project ignore files
+.settings
+.classpath
+.project
+.tomcatplugin
+target
+work
+*.log
+.idea
+*.iml
+*.zip
+*.tar.gz
+*.tar.bz2
+*.apk
+configure.properties
+jdbc.properties
+!src/test/resources/jdbc.properties
