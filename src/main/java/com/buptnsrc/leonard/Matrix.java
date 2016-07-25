@@ -15,7 +15,7 @@ public class Matrix {
 
     public Matrix(int x){
 
-        matrix = new int[Constants.MACHINE_NUM][Constants.TASK_NUM];                //20行5000列矩阵，存放每个task在对应机器上的执行时间
+        matrix = new int[Constants.MACHINE_NUM][Constants.TASK_NUM];               //10行50列矩阵，存放每个task在对应机器上的执行时间
 
 //        if(x==0){
 //

@@ -466,7 +466,7 @@ public class GaWithGeographicalIsolation {
 //            System.out.println("remain old"+ tmpOldEliteTime+ " new" + eliteTime);
             double[] time = countTime(chromosomeNum);
             List<Integer> chromosomeRemains = new ArrayList<Integer>();
-            for(int i=0; i<CHROMOSOME_NUM/6; i++){
+            for(int i=0; i<CHROMOSOME_NUM/3; i++){
                 chromosomeRemains.add(i);
             }
             //replace the worst chromosomes by old elite, to most 5
